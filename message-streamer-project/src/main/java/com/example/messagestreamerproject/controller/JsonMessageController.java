@@ -20,3 +20,4 @@ public class JsonMessageController {
         jsonKafkaProducer.sendMessage(user);
         return ResponseEntity.ok("Json Message sent to the topic");
     }
+}
